@@ -45,10 +45,7 @@ import { ref, onMounted, nextTick } from 'vue';
 // --- API 配置 (从你的JS文件中提取) ---
 const SILICONFLOW_API_URL = 'https://api.siliconflow.cn/v1/chat/completions';
 
-// 警告：请不要将你的真实 API Token 直接硬编码在前端代码中！
-// 在生产环境中，这会暴露你的密钥，非常危险。
-// 推荐做法是通过后端服务器转发请求。
-// 这里为了教学演示，我们暂时直接使用。
+
 const SILICONFLOW_TOKEN = 'sk-xmddxeqqcaeatgxwkbukioyqnoxhpaubhaojmlmfmxxwjosg';
 
 // --- 组件状态定义 ---
